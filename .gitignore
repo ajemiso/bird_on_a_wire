@@ -5,6 +5,12 @@ wire_quotes.csv
 wire_quotes.numbers
 test.py
 
+#Pycharm
+.idea
+
+# OSX
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
