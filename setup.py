@@ -7,5 +7,5 @@ setup(name='bird_on_a_wire',
       author='',
       author_email='',
       license='',
-      packages=['tweepy'],
+      packages=[],
       zip_safe=False)
