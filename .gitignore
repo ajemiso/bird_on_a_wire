@@ -1,8 +1,9 @@
 # private files
 bird_on_a_wire/private.py
-private.py
+# private.py
 wire_quotes.csv
 wire_quotes.numbers
+# test.py
 
 #Pycharm
 .idea
