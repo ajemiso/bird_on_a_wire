@@ -15,6 +15,7 @@ class Session:
                  access_token_secret=access_token_secret
     ):
         self.api = self.get_tweepy_api()
+        self.current_quote = None
 
     def __str__(self):
         return ""
@@ -47,5 +48,6 @@ class Session:
         """ uses Tweepy API object to update User profile with new quote """
         quote = self.get_quote()
         self.api.update_profile(description=quote)
+        self.current_quote = quote
 
         return True
